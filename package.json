@@ -1,0 +1,30 @@
+{
+  "name": "israel-tech-daily",
+  "version": "1.0.0",
+  "description": "Daily Israel Tech Newsletter Bot",
+  "main": "dist/scheduler.js",
+  "scripts": {
+    "start": "ts-node src/scheduler.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "resend": "^6.6.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "spotlights": [
+        {
+            "name": "Eran Zinman",
+            "company": "monday.com",
+            "vision": "Building a better way to work, one no-code column at a time.",
+            "connection": "Israeli co-founder of a 2021 NASDAQ unicorn, bridging Tel Aviv engineering with NYC/SV market presence."
+        },
+        {
+            "name": "Nir Zuk",
+            "company": "Palo Alto Networks",
+            "vision": "Disrupting the cybersecurity landscape with a focus on unified platforms.",
+            "connection": "The quintessential Israeli-Silicon Valley success story, moving from Check Point to founding a Valley giant."
+        },
+        {
+            "name": "Tomer Tagrin",
+            "company": "Yotpo",
+            "vision": "Empowering commerce brands to win customers for life through authentic content.",
+            "connection": "Leading Yotpo's global expansion with a strong presence in the Valley tech ecosystem."
+        },
+        {
+            "name": "Assaf Rappaport",
+            "company": "Wiz",
+            "vision": "Making cloud security simple and scalable for the largest enterprises.",
+            "connection": "The force behind one of the fastest-growing startups in SV history, with Israeli roots."
+        },
+        {
+            "name": "Oren Kaniel",
+            "company": "AppsFlyer",
+            "vision": "Providing the foundation for mobile marketing success through privacy-centric measurement.",
+            "connection": "Regularly visiting Valley HQ while maintaining deep R&D roots in Israel."
+        }
+    ]
+}

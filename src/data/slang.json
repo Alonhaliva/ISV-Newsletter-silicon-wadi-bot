@@ -1,0 +1,34 @@
+{
+    "slang": [
+        {
+            "word": "Chutzpah (חוצפה)",
+            "definition": "Audacity, for good or bad. In tech, it's the nerve to challenge the status quo.",
+            "usage": "It took real chutzpah to pitch that idea to Intel."
+        },
+        {
+            "word": "Kombina (קומבינה)",
+            "definition": "A creative, sometimes informal solution to a complex problem.",
+            "usage": "We didn't have the API, so we made a kombina with a scraper."
+        },
+        {
+            "word": "Yalla (יאללה)",
+            "definition": "Let's go / Hurry up. Used to drive momentum in projects.",
+            "usage": "The deadline is tomorrow. Yalla, let's ship it!"
+        },
+        {
+            "word": "Davka (דווקא)",
+            "definition": "Specifically / Contrary to expectations.",
+            "usage": "Everyone said it would fail, but davka it became a unicorn."
+        },
+        {
+            "word": "Firgun (פירגון)",
+            "definition": "Genuine happiness for someone else's success.",
+            "usage": "Total firgun to the team for their $100M exit!"
+        },
+        {
+            "word": "Tachles (תכלס)",
+            "definition": "Bottom line / To the point.",
+            "usage": "Enough with the slides, let's talk tachles: what's the revenue?"
+        }
+    ]
+}

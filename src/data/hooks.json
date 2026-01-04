@@ -1,0 +1,34 @@
+{
+    "hooks": [
+        {
+            "type": "Fact",
+            "content": "Israel has the highest number of startups per capita in the world, earning its 'Startup Nation' nickname."
+        },
+        {
+            "type": "Quote",
+            "author": "Shimon Peres",
+            "content": "In Israel, a land lacking in natural resources, we learned to appreciate our greatest national asset: our minds."
+        },
+        {
+            "type": "Fact",
+            "content": "The USB flash drive was invented by the Israeli company M-Systems in 1999."
+        },
+        {
+            "type": "Fact",
+            "content": "Intel's most important processors, including the 8088 and the Centrino, were designed in Israel."
+        },
+        {
+            "type": "Quote",
+            "author": "Dan Senor",
+            "content": "The secret to Israel's success is not just the technology, but the culture of questioning and 'chutzpah'."
+        },
+        {
+            "type": "Fact",
+            "content": "Waze, the world's leading traffic and navigation app, was founded in Israel before being acquired by Google."
+        },
+        {
+            "type": "Fact",
+            "content": "Israel is home to over 350 multinational R&D centers, including giants like Google, Microsoft, and Apple."
+        }
+    ]
+}
