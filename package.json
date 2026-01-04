@@ -4,7 +4,9 @@
   "description": "Daily Israel Tech Newsletter Bot",
   "main": "dist/scheduler.js",
   "scripts": {
-    "start": "ts-node src/scheduler.ts",
+    "build": "tsc",
+    "start": "node dist/scheduler.js",
+    "dev": "ts-node src/scheduler.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
