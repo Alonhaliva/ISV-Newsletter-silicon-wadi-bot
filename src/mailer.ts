@@ -128,8 +128,8 @@ export async function sendNewsletter(recipients: string | string[], articles: Ar
             <a href="#" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">View Online</a>
         </div>
         <div class="container">
-          <div class="header" style="border-bottom: 4px solid #f1c40f;">
-            <div class="brand">SILICON WADI DISPATCH ⚡</div>
+          <div class="header">
+            <div class="brand">Iton - Tech Bridge ⚡</div>
             <div class="date">${dateStr}</div>
           </div>
           
