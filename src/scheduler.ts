@@ -68,3 +68,14 @@ cron.schedule('0 8 * * *', () => {
 });
 
 console.log('Scheduler is active. Waiting for 8:00 AM America/Los_Angeles time.');
+
+// --- Render Health Check (Keep Alive) ---
+import http from 'http';
+const port = process.env.PORT || 8080;
+const server = http.createServer((req, res) => {
+    res.writeHead(200);
+    res.end('Silicon Wadi Dispatch Bot is Active 🤖');
+});
+server.listen(port, () => {
+    console.log(`Health check server running on port ${port}`);
+});
