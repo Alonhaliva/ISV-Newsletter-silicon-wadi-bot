@@ -121,11 +121,9 @@ export async function sendNewsletter(recipients: string | string[], articles: Ar
     <body>
       <div class="wrapper">
         <div style="text-align: center; padding-bottom: 30px; border-bottom: 1px solid #eee; margin-bottom: 30px;">
-            <a href="#" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">Sign Up</a>
+            <a href="https://advertise.tldr.tech/?utm_source=tldr&utm_medium=newsletter&utm_campaign=advertisetopnav" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">Advertise</a>
             <span style="font-size: 16px; color: #000;">|</span>
-            <a href="#" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">Advertise</a>
-            <span style="font-size: 16px; color: #000;">|</span>
-            <a href="#" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">View Online</a>
+            <a href="https://v0.app/chat/israeli-silicon-valley-map-mlpiy60Tvit#IRBEwl8QhMW8uHnTiybrLbl96sR3CkXN" style="color: #000; text-decoration: underline; font-size: 16px; margin: 0 5px;">View Online</a>
         </div>
         <div class="container">
           <div class="header">
