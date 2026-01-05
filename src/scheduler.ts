@@ -43,7 +43,16 @@ async function runTask() {
                 console.log('No subscribers to send to.');
             } else {
                 await sendNewsletter(subscribers, selectedArticles, stockData, hook, slang, spotlight);
-                console.log('Newsletter sending process completed.');
+                console.log('Newsletter sent successfully to all recipients.');
+
+                // Trigger Vercel website update (replacing Vercel Cron)
+                try {
+                    console.log('Triggering website content update...');
+                    await fetch('https://v0-israeli-silicon-valley-map.vercel.app/api/cron/fetch-articles');
+                    console.log('Website update triggered.');
+                } catch (err) {
+                    console.error('Failed to trigger website update:', err);
+                }
             }
         } else {
             console.log('No articles found matching criteria today.');
@@ -54,7 +63,7 @@ async function runTask() {
 }
 
 // Validation run on startup (optional, commented out to avoid spamming on restart)
-// runTask(); 
+runTask();
 
 // Schedule task for 8:00 AM every day
 // Cron format: Minute Hour Day Month DayOfWeek
