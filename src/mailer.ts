@@ -61,7 +61,7 @@ export async function sendNewsletter(recipients: string | string[], articles: Ar
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>The Israeli Spark</title>
+      <title>Iton - Tech Bridge</title>
       <style>
         body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f9; color: #1a1a1a; }
         .wrapper { background-color: #f4f7f9; padding: 20px 10px; }
@@ -187,7 +187,7 @@ export async function sendNewsletter(recipients: string | string[], articles: Ar
           
           <div class="footer">
             <p>Smart, curated briefings for the Israeli tech community.</p>
-            <p>&copy; 2026 SILICON WADI DISPATCH | <a href="#">Unsubscribe</a></p>
+            <p>&copy; 2026 Iton - Tech Bridge | <a href="#">Unsubscribe</a></p>
           </div>
         </div>
       </div>
@@ -217,7 +217,7 @@ export async function sendNewsletter(recipients: string | string[], articles: Ar
 
   for (const recipient of finalRecipients) {
     const mailOptions = {
-      from: `"Silicon Wadi Dispatch" <${process.env.EMAIL_USER}>`,
+      from: `"Iton - Tech Bridge" <${process.env.EMAIL_USER}>`,
       to: recipient,
       subject: `⚡ ${dynamicSubject}`,
       html: htmlContent,
